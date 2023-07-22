@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Bắt đầu với Java</title>
+    <link href="/2023/07/21/Bat-dau-voi-Java/"/>
+    <url>/2023/07/21/Bat-dau-voi-Java/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Cac-thanh-phan-cua-ung-dung-Java"><a href="#Cac-thanh-phan-cua-ung-dung-Java" class="headerlink" title="Các thành phần của ứng dụng Java"></a>Các thành phần của ứng dụng Java</h2><p>Tôi hiểu rằng bạn rất muốn nhập một số mã vào trình chỉnh sửa (editor) của mình và chạy nó để xem ứng dụng Java đầu tiên của bạn đang hoạt động! Đừng lo lắng, kỳ vọng của bạn sẽ được đáp ứng khi kết thúc hướng dẫn này. Nhưng trước khi chúng ta tiếp tục, tôi muốn điểm qua một số yếu tố mà bạn cần biết để hiểu đầy đủ những gì bạn đang làm.</p><p>Ngay cả khi bạn đã quen thuộc với một số ngôn ngữ lập trình khác, biết về biên dịch, biết tệp thực thi là gì thì bạn có thể quan tâm đến những điều sau đây vì Java hoạt động theo cách khác với C hoặc C++.</p><h2 id="Bien-dich-va-thuc-thi-ma-Java"><a href="#Bien-dich-va-thuc-thi-ma-Java" class="headerlink" title="Biên dịch và thực thi mã Java"></a>Biên dịch và thực thi mã Java</h2><p>Có một số bước mà bạn cần làm theo để tạo một ứng dụng Java. Hướng dẫn này chỉ cho bạn cách tạo một ứng dụng Java rất đơn giản. Nếu bạn cần tạo một ứng dụng doanh nghiệp, quy trình tạo sẽ phức tạp hơn nhưng cốt lõi của nó, bạn sẽ tìm thấy các bước đơn giản này.</p><p>Bước đầu tiên trong số các bước này là viết một số mã Java trong trình soạn thảo văn bản.</p><p>Sau đó, mã này phải được chuyển đổi sang định dạng khác, định dạng này có thể được thực thi bởi máy tính của bạn. Việc chuyển đổi này được thực hiện bởi một phần mềm đặc biệt gọi là trình biên dịch <em>(compiler)</em>. Một số ngôn ngữ không có compiler; Java thì có. Mỗi compiler là dành riêng cho một ngôn ngữ.</p><p>Tệp do trình biên dịch tạo ra thường được gọi là tệp nhị phân hoặc tệp thực thi. Trong khi bạn có thể đọc và hiểu mã nguồn, các tệp nhị phân hoặc tệp thực thi không dành cho con người đọc. Chỉ có máy tính của bạn có thể hiểu được nó.</p><p>Mã này chứa các mã nhị phân đặc biệt được gọi là mã <em>byte code</em>. Đây là một thuật ngữ kỹ thuật mà bạn có thể bắt gặp. Mô tả chính xác mã <em>byte code</em> này là gì nằm ngoài phạm vi của hướng dẫn này.</p><p>Biên dịch một số mã có thể không thành công; mã của bạn phải chính xác để trình biên dịch tạo ra phiên bản thực thi của nó. Đừng lo lắng, trang này cung cấp cho bạn mã mà bạn sẽ biên dịch. Tất cả những gì bạn cần làm là sao chép và dán vào trình soạn thảo văn bản của mình.</p><p>Sau khi trình biên dịch tạo ra tệp nhị phân mà bạn cần, bạn có thể thực thi tệp nhị phân này, đó sẽ là chương trình của bạn.</p><blockquote><p>Hai bước này: biên dịch và thực thi yêu cầu hai phần mềm cụ thể là một phần của Bộ công cụ phát triển Java, còn được gọi là JDK. Bạn sẽ thấy cách tải xuống JDK miễn phí và cách cài đặt nó sau trong hướng dẫn này.</p></blockquote><p>Lưu ý rằng bắt đầu với Java SE 11, bạn cũng có thể hợp nhất hai bước này thành một, bằng cách thực thi trực tiếp tệp .java. Bạn chỉ có thể sử dụng các tính năng này nếu bạn đang thực hiện một chương trình được viết trong một tệp duy nhất. Cách thực thi ứng dụng java này của bạn không hoạt động nếu mã java của bạn trải rộng trên nhiều tệp.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>java</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>khoa-hoc</tag>
+      
+      <tag>lap-trinh</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
