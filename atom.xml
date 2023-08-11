@@ -1,36 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog của Dudy</title>
   
+  <subtitle>Tự học lập trình</subtitle>
+  <link href="http://dudy.vn/atom.xml" rel="self"/>
   
+  <link href="http://dudy.vn/"/>
+  <updated>2023-08-11T19:47:57.139Z</updated>
+  <id>http://dudy.vn/</id>
+  
+  <author>
+    <name>Dudy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Bắt đầu với Java</title>
-    <link href="/2023/07/21/Bat-dau-voi-Java/"/>
-    <url>/2023/07/21/Bat-dau-voi-Java/</url>
+    <link href="http://dudy.vn/2023/07/21/Bat-dau-voi-Java/"/>
+    <id>http://dudy.vn/2023/07/21/Bat-dau-voi-Java/</id>
+    <published>2023-07-21T11:10:00.000Z</published>
+    <updated>2023-08-11T19:47:57.139Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Java-la-gi-Hoc-Java-de-lam-gi-Tai-sao-lai-chon-Java"><a href="#Java-la-gi-Hoc-Java-de-lam-gi-Tai-sao-lai-chon-Java" class="headerlink" title="Java là gì ? Học Java để làm gì ? Tại sao lại chọn Java ?"></a>Java là gì ? Học Java để làm gì ? Tại sao lại chọn Java ?</h2><p>Chắc hẳn bạn rất muốn nhập một số mã (code) vào trình chỉnh sửa (editor) và tìm cách chạy nó để xem ứng dụng Java đầu tiên của bạn hoạt động như thế nào. Đừng vội, bạn sẽ được code sớm thôi. Nhưng trước khi chúng ta tiếp tục, tôi muốn điểm qua một số yếu tố mà bạn cần biết để hiểu đầy đủ những gì bạn đang làm.</p><ul><li><h4 id="Java-la-gi"><a href="#Java-la-gi" class="headerlink" title="Java là gì ?"></a>Java là gì ?</h4></li></ul><p> Java là một ngôn ngữ lập trình và thuộc top những ngôn ngữ <em>phổ biến nhất thế giới</em>. Bước đầu học lập trình, hãy bắt đầu bằng việc học sử dụng ngôn ngữ Java. </p><ul><li><h4 id="Hoc-Java-de-lam-gi"><a href="#Hoc-Java-de-lam-gi" class="headerlink" title="Học Java để làm gì ?"></a>Học Java để làm gì ?</h4></li></ul><p> Học Java để lập trình ứng dụng, bằng cách sử dụng ngôn ngữ Java để giao tiếp với máy tính. Nó giống như dùng Toán viết Văn vậy, đầy tính logic và sáng tạo.</p><ul><li><h4 id="Tai-sao-lai-lua-chon-Java-ma-khong-phai-la-cac-ngon-ngu-khac"><a href="#Tai-sao-lai-lua-chon-Java-ma-khong-phai-la-cac-ngon-ngu-khac" class="headerlink" title="Tại sao lại lựa chọn Java mà không phải là các ngôn ngữ khác ?"></a>Tại sao lại lựa chọn Java mà không phải là các ngôn ngữ khác ?</h4></li></ul><p> Có rất nhiều lý do để chọn Java là ngôn ngữ để bắt đầu cho việc học lập trình:</p><ul><li>Java cực kì phổ biến, đặc biệt được lựa chọn cho các ứng dụng trong các tổ chức tài chính ngân hàng. Bạn có thể thử tìm kiếm các công việc tuyển dụng về Java để biết mức độ phổ biến của Java trên thị trường lao động nhé.</li><li>Java thiết kế độc lập với nền tảng (platform), viết mã một lần thực thi ở mọi nơi ( slogan: write one run anywhere). Dùng Java có thể lập trình được các ứng dụng desktop, mobile, web hay thậm chí là lập trình nhúng.</li><li>Java là ngôn ngữ lập thuần trình hướng đối tượng. Lập trình hướng đối tượng là một tư duy về thiết kế ngôn ngữ, thiết kế ứng dụng, những đặc điểm của lập trình hướng đối tượng giúp người lập trình dễ dàng mô hình hóa các thành phần trong ứng dụng, dễ dàng quản lý, dễ dàng tìm lỗi, tăng cường việc tái sử dụng code và mở rộng dễ dàng hơn, từ đó giảm được đáng kể thời gian phát triển ứng dụng.</li><li>Java được phát hành vào năm 1995 tại Sun, sau này được Oracle mua lại và vẫn tiếp tục phát triển tới bây giờ. Rất nhiều công ty lớn (Oracle, Amazon, Microsoft, Red Hat, IBM, SAP, Eclipse, Tencen…)  cùng tham gia phát triển và phân phối các phiên bản của Java từ mã nguồn mở OpenJDK. Chính vì vậy, tài liệu học tập (document), tool toy, cộng đồng (community), các bộ thư viện (library), các bộ khung phát triển (framework) cực kì đầy đủ, phong phú, có thể nói là không thiếu thứ gì.</li></ul><p>Tất nhiên là Java vẫn còn những nhược điểm nhưng với những ưu điểm trên cũng đủ niềm tin để thấy Java là lựa chọn tốt cho sự khởi đầu của lập trình. </p><div style="text-align: right"><i>Thực tế thì học ngôn ngữ nào không quan trọng. Quan trọng bạn phải giỏi ít nhất một ngôn ngữ.</i></div> <h2 id="Bat-dau-voi-Java"><a href="#Bat-dau-voi-Java" class="headerlink" title="Bắt đầu với Java"></a>Bắt đầu với Java</h2><p>Có một số bước mà bạn cần làm theo để tạo ra một ứng dụng bằng Java. Hướng dẫn này chỉ cho bạn cách tạo một ứng dụng Java đơn giản (console application). Nếu cần tạo một ứng dụng doanh nghiệp (java enterprise edition), quy trình tạo sẽ phức tạp hơn nhưng cốt lõi vẫn sẽ là từ những thứ đơn giản nhất.</p><p>Bước đầu tiên trong số các bước này là viết code Java trong trình soạn thảo văn bản (editor). Bạn có thể sử dụng bất kì editor nào để viết code như notepad, notepad++, sublime text, vi, nano, emacs, vscode…hoặc các trình IDE như jetbrains intellij IDEA, eclipse, netbean… Đầu ra (output) của bước này là tệp (file) có đuôi mở rộng (file extension) là <strong>.java</strong>.</p><p>Sau đó, code này được chuyển đổi sang định dạng khác, định dạng này có thể được thực thi bởi máy tính của bạn. Việc chuyển đổi này được thực hiện bởi một phần mềm đặc biệt gọi là trình biên dịch <em>(compiler)</em>. Một số ngôn ngữ không có compiler, Java thì có. Mỗi compiler là dành riêng cho một ngôn ngữ. Tệp do complier tạo ra thường được gọi là file nhị phân <em>(byte code)</em> hoặc file thực thi và extension là <strong>.class</strong>. Trong khi bạn có thể đọc và hiểu file code mã nguồn <strong>.java</strong>, các file byte code <strong>.class</strong> không dành cho con người, chỉ có máy tính mới dễ dàng đọc hiểu được nó. Mô tả chính xác mã byte code này là gì nằm ngoài phạm vi của hướng dẫn này.</p><p>Complie code có thể không thành công; code của bạn phải chính xác để compiler tạo ra byte code của nó. Đừng lo lắng, mình sẽ cung cấp cho bạn code mà bạn sẽ compile. Tất cả những gì bạn cần làm là copy và paste vào editor của mình.</p><p>Sau khi trình biên dịch tạo ra file byte code mà bạn cần, bạn có thể thực thi file byte code này, đó sẽ là chương trình của bạn.</p><blockquote><p>Hai bước này: biên dịch và thực thi, là 2 bước được định nghĩa trong bộ công cụ phát triển Java, còn được gọi là JDK. JDK miễn phí và mình sẽ chỉ cách tải xuống và cài đặt nó sau trong hướng dẫn này.</p></blockquote><p>Lưu ý rằng từ Java SE 11, bạn cũng có thể hợp nhất hai bước này thành một, bằng cách thực thi trực tiếp file code mã nguồn <strong>.java</strong>. Bạn chỉ có thể sử dụng các tính năng này nếu bạn đang thực hiện một chương trình được viết trong một file duy nhất. Cách thực thi ứng dụng java này của bạn không hoạt động nếu mã java của bạn được viết trên nhiều file.</p><h2 id="Cai-dat-JDK"><a href="#Cai-dat-JDK" class="headerlink" title="Cài đặt JDK"></a>Cài đặt JDK</h2><p>Bạn có thể tải xuống JDK từ những nơi khác nhau, bản phân phối từ mã nguồn mở của OpenJDK tại <a href="https://jdk.java.net/">https://jdk.java.net/</a> hoặc bản phân phối của Oracle tại <a href="https://www.oracle.com/java/technologies/downloads/">https://www.oracle.com/java/technologies/downloads/</a>.</p><h2 id="Tao-file-class-Java-dau-tien-va-bien-dich"><a href="#Tao-file-class-Java-dau-tien-va-bien-dich" class="headerlink" title="Tạo file class Java đầu tiên và biên dịch"></a>Tạo file class Java đầu tiên và biên dịch</h2><p>Bước đầu tiên là mã Java bạn đang viết được lưu trong các tệp văn bản thuần túy (plain text). Hãy copy và paste và editor của bạn.</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyFirstClass</span> &#123;<br>&#125;<br></code></pre></td></tr></table></figure><p>Bạn cần lưu file plain text này lại và đặt tên nó là MyClass.java. Hãy lưu ý extension của file này là <strong>.java</strong>, bạn có thể đặt tên nó bằng bất kỳ cái tên nào khác, miễn là chúng không bắt đầu bằng số vì có một vài ràng buộc (convention) trong việc đặt tên class, tên file.</p><p>Biên dịch là bước thứ hai bạn cần thực hiện sau khi tạo file class đầu tiên. Quá trình này sẽ chuyển đổi file <strong>MyClass.java</strong> của bạn sang một file mới được tạo ra và có tên là <strong>MyClass.class</strong> .</p>]]></content>
     
     
-    <categories>
       
-      <category>java</category>
       
-    </categories>
+    <summary type="html">&lt;h2 id=&quot;Java-la-gi-Hoc-Java-de-lam-gi-Tai-sao-lai-chon-Java&quot;&gt;&lt;a href=&quot;#Java-la-gi-Hoc-Java-de-lam-gi-Tai-sao-lai-chon-Java&quot; class=&quot;headerlin</summary>
+      
     
     
-    <tags>
-      
-      <tag>java</tag>
-      
-      <tag>khoa-hoc</tag>
-      
-      <tag>lap-trinh</tag>
-      
-    </tags>
+    
+    <category term="java" scheme="http://dudy.vn/categories/java/"/>
+    
+    
+    <category term="java" scheme="http://dudy.vn/tags/java/"/>
+    
+    <category term="khoa-hoc" scheme="http://dudy.vn/tags/khoa-hoc/"/>
+    
+    <category term="lap-trinh" scheme="http://dudy.vn/tags/lap-trinh/"/>
     
   </entry>
   
-  
-  
-  
-</search>
+</feed>
